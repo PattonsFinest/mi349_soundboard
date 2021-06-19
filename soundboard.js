@@ -7,15 +7,15 @@ cash.src = "cash_register_x.wav";
 var clock = new Audio ();
 clock.src = "cuckoo_clock2_x.wav";
 
-var play1 = function (num) {
+var play1 = function () {
     horn.play();
 }
 
-var play2 = function (num) {
+var play2 = function () {
     cash.play();
 }
 
-var play3 = function (num) {
+var play3 = function () {
     clock.play();
 }
 
@@ -23,4 +23,4 @@ var but1 = document.getElementById('button1');
 var but2 = document.getElementById('button2');
 var but3 = document.getElementById('button3');
 
-but1.addEventListener("click", play1(1) )
+but1.addEventListener("click", play1() )
