@@ -4,24 +4,25 @@ body {
 }
 
 .buttons{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #button1 {
     margin: 15px;
     padding: 15px;
-    background-color: rgb(88, 133, 255)
+    background-color: rgb(88, 133, 255);
 
 }
 
 #button2 {
     margin: 15px;
     padding: 15px;
-    background-color: rgb(201, 165, 67)
+    background-color: rgb(201, 165, 67);
 }
 
 #button3 {
     margin: 15px;
     padding: 15px;
-    background-color: rgb(24, 228, 180)
+    background-color: rgb(24, 228, 180);
 }
