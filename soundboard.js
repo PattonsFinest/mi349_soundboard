@@ -10,3 +10,11 @@ clock.src = "cuckoo_clock2_x.wav";
 var play1 = function () {
     horn.play();
 }
+
+var play2 = function () {
+    cash.play();
+}
+
+var play3 = function () {
+    clock.play();
+}
